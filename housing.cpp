@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 /* =============================
          AVL TREE
    ============================= */
@@ -8,7 +7,6 @@ struct Node {
     int key;
     Node *left, *right;
     int height;
-
     Node(int k) {
         key = k;
         left = right = NULL;
